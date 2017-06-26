@@ -98,7 +98,8 @@ GEM
       execjs (>= 0.3.0, < 3)
 
 PLATFORMS
-  ruby (2.3.4)
+  ruby
+  unknown
 
 DEPENDENCIES
   middleman (~> 4.2)

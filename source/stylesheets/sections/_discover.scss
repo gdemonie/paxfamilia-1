@@ -1,0 +1,23 @@
+.discover {
+  padding-top: 80px;
+  background: linear-gradient(0deg, rgba(3, 187, 156,0.1) 0%, rgba(255,255,255,0.9 ) 80%);
+  border-bottom: solid 1px #7CDDCC;
+
+  h1 {
+    font-weight: lighter;
+    margin-bottom: 50px;
+    color: $brand-blue;
+  }
+}
+
+.paxfamilia {
+  font-size: 25px;
+  font-weight: bold;
+}
+
+.paxfamilia-desc {
+  padding-left: 10%;
+  padding-right: 10%;
+  font-size: 20px;
+  font-weight: lighter;
+}

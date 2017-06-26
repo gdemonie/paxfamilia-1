@@ -11,7 +11,12 @@
 
 // Sections
 @import "sections/banner";
-
+@import "sections/discover";
+@import "sections/security";
+@import "sections/feedbacks";
+@import "sections/preorder";
+@import "sections/team";
+@import "sections/footer";
 
 body {
   margin: 0;
@@ -29,109 +34,8 @@ a {
   }
 }
 
-.discover {
-  padding-top: 100px;
-  background: linear-gradient(0deg, rgba(3, 187, 156,0.1) 0%, rgba(255,255,255,0.9 ) 80%);
-  border-bottom: solid 1px #7CDDCC;
-}
-
-
 ul {
   list-style: none;
-}
-
-.float-right {
-  float: right;
-  margin-right: 50px;
-}
-
-
-.security {
-  background-color: #6AE0CC;
-  padding: 10% 0%;
-
-  h1 {
-    font-weight: lighter;
-    margin-bottom: 80px;
-    color: $brand-blue;
-  }
-}
-
-.feedbacks {
-  border-top: solid 1px #7CDDCC;
-  background: linear-gradient(180deg, rgba(3, 187, 156,0.08) 0%, rgba(255,255,255,0.9 ) 30%);
-  padding: 7% 0% 10% 0%;
-  margin-top: 50px;
-
-  h1 {
-    font-weight: lighter;
-    margin-bottom: 50px;
-    color: $brand-blue;
-  }
-}
-
-.discover {
-  h1 {
-    font-weight: lighter;
-    margin-bottom: 50px;
-    color: $brand-blue;
-  }
-}
-
-.preorder {
-  h1 {
-    font-weight: lighter;
-    margin-bottom: 50px;
-    color: $brand-blue;
-  }
-}
-
-.team {
-  padding-top: 100px;
-  h1 {
-    font-weight: lighter;
-    margin-bottom: 20px;
-    color: $brand-blue;
-  }
-}
-
-footer {
-
-  color: white;
-  font-weight: lighter;
-  height: 100%;
-  margin-top: 20px;
-
-  .light {
-    background-color: $brand-blue-light;
-    padding-top: 30px;
-    padding-bottom: 30px;
-  }
-
-  .dark {
-    background-color: $brand-blue;
-    padding-top: 40px;
-    padding-bottom: 10px;
-  }
-}
-
-.logowg {
-  position: absolute;
-  left: 30px;
-  margin-top: auto;
-  margin-bottom: auto;
-}
-
-.logofooter {
-  position: absolute;
-  left: 100px;
-  margin-top: auto;
-  margin-bottom: auto;
-}
-
-.copyright {
-  font-size: 12px;
-  padding-top: 50px;
 }
 
 h2 {
@@ -143,51 +47,38 @@ h2 {
   background-color: #F3F3F3;
   height: 150%;
   padding-top: 15px;
-  padding-bottom: 30px;
+  padding-bottom: 15px;
 }
 
-.learn-more, .services, .address, .infos {
-  p {
-    color: rgba(255, 255, 255, 0.5);
-  }
-
-  h4 {
-    margin-top: 20px;
-  }
-
-  a{
-    color: rgba(255, 255, 255, 0.5);
-    display: block !important;
-    margin-top: 5px;
-
-    &:hover {
-      text-decoration: none;
-      color: white;
-      // transition: ease 0.4;
-    }
-  }
-}
-
-
-
-#preorder {
-  padding-top: 100px;
-}
-
-.signature {
-  float: right;
-  margin-right: 20px;
-  font-style: italic;
-}
-
-.faq {
-  padding-top: 100px;
+.line {
+  height: 1px;
+  width: 300px;
+  margin: 20px auto 0px auto;
+  background-image: linear-gradient(left, rgba(255, 255, 255, 0.2) 0%, rgba(52, 76, 92, 0.8) 50%, rgba(255, 255, 255, 0.2) 100%);
+  background-image:-moz-linear-gradient(left, rgba(255, 255, 255, 0.2) 0%, rgba(52, 76, 92, 0.8) 50%, rgba(255, 255, 255, 0.2) 100%);
+  background-image:linear-gradient(left, rgba(255, 255, 255, 0.2) 0%, rgba(52, 76, 92, 0.8) 50%, rgba(255, 255, 255, 0.2) 100%);
+  background-image:-webkit-linear-gradient(left, rgba(255, 255, 255, 0.2) 0%, rgba(52, 76, 92, 0.8) 50%, rgba(255, 255, 255, 0.2) 100%);
+  background-image:-o-linear-gradient(left, rgba(255, 255, 255, 0.2) 0%, rgba(52, 76, 92, 0.8) 50%, rgba(255, 255, 255, 0.2) 100%);
+  background-image:-ms-linear-gradient(left, rgba(255, 255, 255, 0.2) 0%, rgba(52, 76, 92, 0.8) 50%, rgba(255, 255, 255, 0.2) 100%);
 }
 
 
 
 
 
+
+// .line{
+//   width:300px;height:1px;
+//   background-color:#FFFFFF;
+//   margin: 20px auto 0px auto;
+//   filter:progid:DXImageTransform.Microsoft.gradient(GradientType=1,startColorstr=#FFFFFF, endColorstr=#344C5C);
+//   background-image:-moz-linear-gradient(left, #FFFFFF 15%, #344C5C 50%,#FFFFFF 85%);
+//   background-image:linear-gradient(left, #FFFFFF 15%, #344C5C 50%,#FFFFFF 85%);
+//   background-image:-webkit-linear-gradient(left, #FFFFFF 15%, #344C5C 50%,#FFFFFF 85%);
+//   background-image:-o-linear-gradient(left, #FFFFFF 15%, #344C5C 50%,#FFFFFF 85%);
+//   background-image:-ms-linear-gradient(left, #FFFFFF 15%, #344C5C 50%,#FFFFFF 85%);
+//   background-image:-webkit-gradient(linear, left bottom, right bottom, color-stop(15%,#FFFFFF), color-stop(50%,#344C5C),color-stop(85%,#FFFFFF));
+// }
 
 
 

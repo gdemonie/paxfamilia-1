@@ -1,0 +1,53 @@
+footer {
+
+  color: white;
+  font-weight: lighter;
+  height: 100%;
+  margin-top: 20px;
+
+  .light {
+    background-color: $brand-blue-light;
+    padding-top: 30px;
+    padding-bottom: 30px;
+  }
+
+  .dark {
+    background-color: $brand-blue;
+    padding-top: 40px;
+    padding-bottom: 10px;
+  }
+}
+
+.logofooter {
+  position: absolute;
+  left: 100px;
+  margin-top: auto;
+  margin-bottom: auto;
+}
+
+.copyright {
+  font-size: 12px;
+  padding-top: 50px;
+}
+
+.learn-more, .services, .address, .infos {
+  p {
+    color: rgba(255, 255, 255, 0.5);
+  }
+
+  h4 {
+    margin-top: 20px;
+  }
+
+  a{
+    color: rgba(255, 255, 255, 0.5);
+    display: block !important;
+    margin-top: 5px;
+
+    &:hover {
+      text-decoration: none;
+      color: white;
+      // transition: ease 0.4;
+    }
+  }
+}
