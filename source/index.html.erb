@@ -1,8 +1,7 @@
-<!-- Barre de Navigation -->
-<div class="navbar list-inline">
-
-  <!-- Logo green -->
-  <a href="#home">
+<!-- Nav -->
+<div class="navbar-wagon navbar-wagon-fixed">
+  <!-- Logo -->
+  <a href="#home" class="navbar-wagon-brand">
     <svg xmlns="http://www.w3.org/2000/svg" width="170" class="logo" viewBox="8.18 357.5 332.5 43">
       <defs>
         <style>
@@ -17,16 +16,33 @@
     <p class="logo-signature">by FriendsFamily</p>
   </a>
 
-  <!-- Nav items -->
-  <ul class="navlist">
-    <li class="text-center nav-item"><a href="#discover">Découvrir</a></li>
-    <li class="text-center nav-item"><a href="#preorder">Pourquoi précommander?</a></li>
-    <li class="text-center nav-item"><a href="#feedbacks">Avis</a></li>
-    <li class="text-center nav-item"><a href="#security">Sécurité</a></li>
-    <li class="text-center nav-item"><a href="#team">Équipe</a></li>
-    <li class="text-center nav-item"><a href="#faq">Questions</a></li>
-  </ul>
-  <button class="top-15 button-primary small-btn float-right">Précommandez</button>
+  <!-- Right Navigation -->
+  <div class="navbar-wagon-right hidden-xs hidden-sm">
+    <a href="#discover" class="navbar-wagon-item navbar-wagon-link">Découvrir</a>
+    <a href="#preorder" class="navbar-wagon-item navbar-wagon-link">Pourquoi précommander?</a>
+    <a href="#feedbacks" class="navbar-wagon-item navbar-wagon-link">Avis</a>
+    <a href="#security" class="navbar-wagon-item navbar-wagon-link">Sécurité</a>
+    <a href="#team" class="navbar-wagon-item navbar-wagon-link">Equipe</a>
+    <a href="#faq" class="navbar-wagon-item navbar-wagon-link">Questions</a>
+
+    <!-- Button (call-to-action) -->
+    <a href="" class="navbar-wagon-item navbar-wagon-button btn">Précommandez</a>
+  </div>
+
+  <!-- Dropdown appearing on mobile only -->
+  <div class="navbar-wagon-item hidden-md hidden-lg">
+    <div class="dropdown">
+      <i class="fa fa-bars dropdown-toggle" data-toggle="dropdown"></i>
+        <ul class="dropdown-menu dropdown-menu-right navbar-wagon-dropdown-menu">
+          <li><a href="#discover" class="navbar-wagon-item navbar-wagon-link">Découvrir</a></li>
+          <li><a href="#preorder" class="navbar-wagon-item navbar-wagon-link">Pourquoi précommander?</a></li>
+          <li><a href="#feedbacks" class="navbar-wagon-item navbar-wagon-link">Avis</a></li>
+          <li><a href="#security" class="navbar-wagon-item navbar-wagon-link">Sécurité</a></li>
+          <li><a href="#team" class="navbar-wagon-item navbar-wagon-link">Equipe</a></li>
+          <li><a href="#faq" class="navbar-wagon-item navbar-wagon-link">Questions</a></li>
+        </ul>
+    </div>
+  </div>
 </div>
 
 
@@ -256,7 +272,7 @@
   <div class="container">
     <div class="row">
       <!-- Image -->
-      <div class="col-xs-12 col-md-12 col-lg-12 timeline">
+      <div class="col-xs-12 col-md-12 col-lg-12 ">
         <?xml version="1.0" encoding="utf-8"?>
         <!-- Generator: Adobe Illustrator 21.1.0, SVG Export Plug-In . SVG Version: 6.00 Build 0)  -->
         <svg version="1.1" id="Calque_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
@@ -470,7 +486,7 @@
           <div class="learn-more">
             <h4 class="mb20">En savoir plus</h4>
             <a href="#feedbacks">Avis des professionels</a>
-            <a href="#security">Quality expectations</a>
+            <a href="#security">Protection des données</a>
             <a href="https://www.friendsfamily.com/faq?locale=fr" target="_blank">F.A.Q.</a>
             <a href="#team">A propos</a>
           </div>
