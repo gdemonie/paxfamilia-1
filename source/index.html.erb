@@ -26,7 +26,7 @@
     <a href="#faq" class="navbar-wagon-item navbar-wagon-link">Questions</a>
 
     <!-- Button (call-to-action) -->
-    <a href="" class="navbar-wagon-item navbar-wagon-button btn">Précommandez</a>
+    <a href="" class="navbar-wagon-item navbar-wagon-button btn stripeButton">Précommandez</a>
   </div>
 
   <!-- Dropdown appearing on mobile only -->
@@ -91,7 +91,7 @@
           </div>
 
           <!-- Pre-order btn -->
-          <button class="button-primary large-btn mt10 mb10">Précommandez aujourd'hui</button>
+          <button class="button-primary large-btn mt10 mb10 stripeButton">Précommandez aujourd'hui</button>
           <p>Prix: 350€ HTVA, Livraison le 1er octobre 2017</p>
         </div>
       </div>
@@ -207,7 +207,7 @@
     <!-- Pre-order btn -->
     <div class="row">
       <div class="col-xs-12 col-md-12 col-lg-12 text-center">
-        <button class="button-primary  mb60 mt60 medium-btn">Précommandez</button>
+        <button class="button-primary  mb60 mt60 medium-btn stripeButton">Précommandez</button>
       </div>
     </div>
   </div>
@@ -350,7 +350,7 @@
 
     <!-- Pre-order btn -->
     <div class="col-xs-12 col-md-12 col-lg-12 text-center mt60">
-      <button class="button-primary medium-btn">Précommandez</button>
+      <button class="button-primary medium-btn stripeButton">Précommandez</button>
     </div>
   </div>
 </div>
@@ -451,6 +451,38 @@
     </div>
   </div>
 </div>
+
+<script type="text/javascript" src="http://code.jquery.com/jquery-latest.min.js"></script>
+<script src="https://checkout.stripe.com/checkout.js"></script>
+
+<script>
+  var handler = StripeCheckout.configure({
+    key: 'pk_test_6nA41guZ8Fgou8PQhl1jdyIq',
+    image: 'https://diio988lyqzal.cloudfront.net/assets/logo-cec74ac441aa2bff70eb6990ccee3507f8628cf0971467ead062c23af630b0dc.png',
+    locale: 'auto',
+    token: function(token) {
+      // You can access the token ID with `token.id`.
+      // Get the token ID to your server-side code for use.
+    }
+  });
+
+  $('.stripeButton').on('click', function(e) {
+    // Open Checkout with further options:
+    handler.open({
+      name: 'PaxFamilia',
+      description: 'Précommandez aujourd\'hui',
+      zipCode: true,
+      currency: 'eur',
+      amount: 35000
+    });
+    e.preventDefault();
+  });
+
+  // Close Checkout on page navigation:
+  window.addEventListener('popstate', function() {
+    handler.close();
+  });
+</script>
 
 <!-- Footer -->
 <footer>
