@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="utf-8"?>
+        <!-- Generator: Adobe Illustrator 21.1.0, SVG Export Plug-In . SVG Version: 6.00 Build 0)  -->
+        <svg version="1.1" id="Calque_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+        viewBox="0 0 1542 586" style="enable-background:new 0 0 1542 586;" xml:space="preserve">
+        <style type="text/css">
+          .st0{fill:#344C5C;}
+          .st1{fill-rule:evenodd;clip-rule:evenodd;fill:#03BB9C;stroke:#344C5C;stroke-width:6;stroke-miterlimit:10;}
+          .st2{fill-rule:evenodd;clip-rule:evenodd;fill:#03BB9C;stroke:#03BB9C;stroke-width:6;stroke-miterlimit:10;}
+          .st3{fill:#03BB9C;stroke:#344C5C;stroke-width:6;stroke-miterlimit:10;}
+          .st4{fill:#03BB9C;stroke:#03BB9C;stroke-width:6;stroke-miterlimit:10;}
+          .st5{fill:#03BB9C;}
+          .st6{font-family:'OpenSans-Semibold';}
+          .st7{font-size:28px;}
+          .st8{font-size:27px;}
+          .st9{font-family:'OpenSans-Extrabold';}
+          .st10{fill:#FFFFFF;}
+        </style>
+        <g>
+          <g>
+            <path class="st0" d="M7.5,245.5c13.7,0,27.4,0,41.1,0c36.9,0,73.8,0,110.8,0c54.7,0,109.5,0,164.2,0c66.8,0,133.6,0,200.3,0
+            c72.9,0,145.8,0,218.7,0c74.1,0,148.2,0,222.2,0c68.6,0,137.2,0,205.8,0c58.2,0,116.4,0,174.5,0c41.8,0,83.7,0,125.5,0
+            c19.8,0,39.6,0.4,59.3,0c0.9,0,1.7,0,2.6,0c7.7,0,7.7-12,0-12c-13.7,0-27.4,0-41.1,0c-36.9,0-73.8,0-110.8,0
+            c-54.7,0-109.5,0-164.2,0c-66.8,0-133.6,0-200.3,0c-72.9,0-145.8,0-218.7,0c-74.1,0-148.2,0-222.2,0c-68.6,0-137.2,0-205.8,0
+            c-58.2,0-116.4,0-174.5,0c-41.8,0-83.7,0-125.5,0c-19.8,0-39.6-0.4-59.3,0c-0.9,0-1.7,0-2.6,0C-0.2,233.5-0.2,245.5,7.5,245.5
+            L7.5,245.5z"/>
+          </g>
+        </g>
+        <circle class="st1" cx="81.3" cy="240" r="29"/>
+        <circle class="st2" cx="1344" cy="240" r="29"/>
+        <circle class="st1" cx="975.5" cy="239" r="29"/>
+        <line class="st3" x1="81" y1="268" x2="81" y2="381"/>
+        <line class="st3" x1="975" y1="268" x2="975" y2="381"/>
+        <line class="st4" x1="1344" y1="268" x2="1344" y2="381"/>
+        <circle class="st0" cx="81" cy="381" r="3"/>
+        <circle class="st0" cx="975" cy="381" r="3"/>
+        <circle class="st5" cx="1344" cy="381" r="3"/>
+        <g>
+          <g>
+            <path class="st0" d="M1536.7,235.3c-14-14-28-28-42-42c-5.5-5.5-14,3-8.5,8.5c14,14,28,28,42,42
+            C1533.7,249.2,1542.2,240.7,1536.7,235.3L1536.7,235.3z"/>
+          </g>
+        </g>
+        <g>
+          <g>
+            <path class="st0" d="M1494.7,285.7c14-13.8,28-27.7,42-41.5c5.5-5.4-3-13.9-8.5-8.5c-14,13.8-28,27.7-42,41.5
+            C1480.8,282.7,1489.2,291.2,1494.7,285.7L1494.7,285.7z"/>
+          </g>
+        </g>
+        <text transform="matrix(1 0 0 1 2.6802 166.8438)" class="st0 st6 st7">Aujourd’hui</text>
+        <text transform="matrix(1 0 0 1 77.9805 442.8438)"><tspan x="0" y="0" class="st0 st6 st8">VOUS </tspan><tspan x="79.9" y="0" class="st0 st9 st8">PRECOMMANDEZ</tspan></text>
+        <text transform="matrix(1 0 0 1 882.4885 166.8438)" class="st0 st6 st7">15 septembre</text>
+        <text transform="matrix(1 0 0 1 1265.9434 166.8438)" class="st0 st6 st7">1er octobre</text>
+        <text transform="matrix(1 0 0 1 971.9805 442.8438)"><tspan x="0" y="0" class="st0 st6 st8">VOUS RECEVEZ VOTRE</tspan><tspan x="0" y="32.4" class="st0 st6 st8">ACCES </tspan><tspan x="89" y="32.4" class="st0 st9 st8">PREMIUM </tspan><tspan x="228.2" y="32.4" class="st0 st6 st8">ET </tspan><tspan x="0" y="64.8" class="st0 st9 st8">ILLIMITE</tspan></text>
+        <text transform="matrix(1 0 0 1 1340.9805 442.8438)"><tspan x="0" y="0" class="st0 st9 st8">LANCEMENT </tspan><tspan x="0" y="32.4" class="st0 st9 st8">PUBLIQUE</tspan></text>
+        <circle class="st0" cx="81" cy="394" r="3"/>
+        <circle class="st0" cx="975" cy="394" r="3"/>
+        <circle class="st5" cx="1344" cy="394" r="3"/>
+        <g>
+          <line class="st0" x1="136.1" y1="289" x2="922.1" y2="289"/>
+          <g>
+            <path class="st0" d="M136.1,294c7,0,14,0,21,0c19,0,38.1,0,57.1,0c28.3,0,56.6,0,84.9,0c34.4,0,68.7,0,103.1,0
+            c37.6,0,75.3,0,112.9,0c38,0,76,0,114,0c35.4,0,70.9,0,106.3,0c30.1,0,60.1,0,90.2,0c21.5,0,43,0,64.6,0c10.2,0,20.4,0.3,30.6,0
+            c0.4,0,0.9,0,1.3,0c6.4,0,6.4-10,0-10c-7,0-14,0-21,0c-19,0-38.1,0-57.1,0c-28.3,0-56.6,0-84.9,0c-34.4,0-68.7,0-103.1,0
+            c-37.6,0-75.3,0-112.9,0c-38,0-76,0-114,0c-35.4,0-70.9,0-106.3,0c-30.1,0-60.1,0-90.2,0c-21.5,0-43,0-64.6,0
+            c-10.2,0-20.4-0.3-30.6,0c-0.4,0-0.9,0-1.3,0C129.6,284,129.6,294,136.1,294L136.1,294z"/>
+          </g>
+        </g>
+        <g>
+          <rect x="324.6" y="279" class="st10" width="409" height="30"/>
+          <text transform="matrix(1 0 0 1 334.8507 296.8438)"><tspan x="0" y="0" class="st0 st6 st8">Nous développons avec </tspan><tspan x="314.8" y="0" class="st0 st9 st8">vous</tspan><tspan x="381" y="0" class="st0 st6 st8">!</tspan></text>
+        </g>
+      </svg>

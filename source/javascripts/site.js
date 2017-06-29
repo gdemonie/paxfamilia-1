@@ -24,20 +24,16 @@ drift.load('fnnvzrceb242');
 
 //////////////////////////////////////////////////////// End of Async Drift Code
 
+$(document).ready(function(){
 
+  $('.modal').on('hide.bs.modal', function(e) {
+    $('#myModal').modal('hide');
+  });
 
+  $('.modal').on('show.bs.modal', function(e) {
+    $('#myModal').modal('show');
+  });
 
-
-
-
-
-
-
-
-
-
-
-
-
+});
 
 
